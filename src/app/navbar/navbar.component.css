@@ -1,0 +1,24 @@
+.active {
+  color: #c802bb;
+  transform: scale(0.99);
+}
+
+.active::after,
+.link:hover::after {
+  content: "";
+  display: flex;
+  margin-top: 5px;
+  width: 0;
+  height: 0.1rem;
+  background-color: white;
+  animation: underline 0.5s 0.1s linear forwards;
+}
+
+@keyframes underline {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

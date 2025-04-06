@@ -1,0 +1,65 @@
+<section>
+  <div class="about-me capitalize mb-4">
+    <h1 class="text-2xl mb-5">
+      <span class="text-[var(--maincolor)]">know</span> who I'm
+    </h1>
+    <p class="leading-loose tracking-wide text-xl mb-5">
+      Hi Everyone, I'm Frontend Developer specializing in Angular with a strong
+      focus on building modern, responsive, and high-performance user
+      interfaces. Passionate about creating seamless user experiences and
+      optimizing web applications for speed and efficiency. Skilled in
+      translating designs into clean, maintainable code and staying up-to-date
+      with the latest frontend technologies.
+    </p>
+
+    <p class="text-center text-[var(--maincolor)]">
+      "Aim for the impossible and don't stop until you've made it possible".
+    </p>
+  </div>
+  <hr class="w-[60%] text-white mx-auto my-10" />
+  <div class="mt-28">
+    <div class="text-center my-10">
+      <h2 class="text-4xl">
+        Professional <span class="text-[var(--maincolor)]">Skillset</span>
+      </h2>
+      <div class="skill container my-10">
+        <div class="skill-item row">
+          <div class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-5 gap-4">
+            @defer(on viewport) { @for (item of skill; track item) {
+            <div
+              class="custom-box viewport capitalize relative flex justify-center items-center py-6 px-4 text-center rounded-lg border-2 border-[var(--maincolor)] mx-2 my-2"
+            >
+              <p class="custom-text">{{ item }}</p>
+            </div>
+            } } @placeholder {
+            <p>scrolldown</p>
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="w-[60%] text-white mx-auto my-10" />
+  <div class="mt-28">
+    <div class="text-center my-10">
+      <h2 class="text-4xl">
+        Tools <span class="text-[var(--maincolor)]">Are Used</span>
+      </h2>
+      <div class="skill container my-10">
+        <div class="skill-item row">
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+            @defer(on viewport) { @for (item of tools; track item) {
+            <div
+              class="custom-box viewport capitalize relative flex justify-center items-center text-center px-4 py-6 rounded-lg border-2 border-[var(--maincolor)] mx-2 my-2"
+            >
+              <p class="custom-text">{{ item }}</p>
+            </div>
+            } } @placeholder {
+            <p>scrolldown</p>
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

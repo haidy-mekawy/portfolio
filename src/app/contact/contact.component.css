@@ -1,0 +1,9 @@
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a:hover {
+  box-shadow: var(--maincolor) 0px 0px 30px;
+  border-radius: 50%;
+}

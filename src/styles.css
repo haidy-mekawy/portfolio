@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+/* @plugin "flowbite/plugin";
+@source "../node_modules/flowbite"; */
+:root {
+  --maincolor: #cb1eba;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/img/1743051499935.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section {
+  margin-top: 10%;
+  padding: 50px;
+  color: white;
+}

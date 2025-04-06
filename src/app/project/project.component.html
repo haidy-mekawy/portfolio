@@ -1,0 +1,55 @@
+<section>
+  <div class="container">
+    <div class="text-center">
+      <h2 class="text-4xl">
+        My <span class="text-[var(--maincolor)]">Recent Works</span>
+      </h2>
+      <span>Here are a few projects I've worked on recently.</span>
+      <div class="skill container my-10">
+        <div class="skill-item row">
+          <div class="grid md:grid-cols-3 gap-4">
+            @for (work of works ; track work) {
+            <div
+              class="max-w-sm bg-black border border-gray-700 rounded-lg shadow-md shadow-fuchsia-600 my-10 flex flex-col justify-evenly"
+            >
+              <div class="img">
+                <img
+                  class="rounded-t-lg h-[200px] w-full object-cover"
+                  [src]="work.Img"
+                  alt="project"
+                />
+              </div>
+
+              <div class="p-5">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight">
+                  {{ work.title }}
+                </h5>
+
+                <p class="mb-3 font-normal text-gray-400">
+                  {{ work.desc }}
+                </p>
+              </div>
+              <div class="flex justify-evenly capitalize my-5">
+                <a
+                  [href]="work.github"
+                  target="_blank"
+                  class="inline-flex items-center px-4 py-2 text-md font-medium text-center bg-[var(--maincolor)] rounded-lg"
+                >
+                  <i class="fa-brands fa-github me-1"></i> gitHub
+                </a>
+                <a
+                  [href]="work.demo"
+                  target="_blank"
+                  class="inline-flex items-center px-4 py-2 text-md font-medium text-center bg-[var(--maincolor)] rounded-lg"
+                >
+                  <i class="fas fa-play me-1"></i> demo
+                </a>
+              </div>
+            </div>
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

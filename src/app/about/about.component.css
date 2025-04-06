@@ -1,0 +1,55 @@
+.custom-text {
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-box {
+  transition: all 0.5s linear !important;
+}
+
+.custom-box:hover {
+  transform: scale(1.1) !important;
+}
+
+.custom-box:hover .custom-text {
+  font-weight: 600 !important;
+}
+.viewport {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: loadInViewport 1s ease-out forwards;
+}
+
+@keyframes loadInViewport {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.custom-box:nth-child(1),
+.custom-box:nth-child(2) {
+  animation-delay: 0.15s;
+}
+.custom-box:nth-child(3),
+.custom-box:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.custom-box:nth-child(5),
+.custom-box:nth-child(6) {
+  animation-delay: 0.45s;
+}
+.custom-box:nth-child(7),
+.custom-box:nth-child(8) {
+  animation-delay: 0.6s;
+}
+.custom-box:nth-child(9),
+.custom-box:nth-child(10) {
+  animation-delay: 0.75s;
+}
+.custom-box:nth-child(11),
+.custom-box:nth-child(12) {
+  animation-delay: 0.9s;
+}
+.custom-box:nth-child(13) {
+  animation-delay: 1.5s;
+}
