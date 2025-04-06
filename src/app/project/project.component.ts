@@ -50,5 +50,12 @@ export class ProjectComponent {
       demo: 'https://haidy-mekawy.github.io/bookmarkers/',
       github: 'https://github.com/haidy-mekawy/bookmarkers.git',
     },
+    {
+      Img: '/img/blog-1.jpg',
+      title: 'Daniel',
+      desc: ' It serves as a digital resume to highlight their experience, technical expertise, and past work—typically aimed at potential employers or collaborators.',
+      demo: 'https://haidy-mekawy.github.io/daniels/',
+      github: 'https://github.com/haidy-mekawy/daniels.git',
+    },
   ];
 }

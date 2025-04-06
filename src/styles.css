@@ -3,14 +3,14 @@
 /* @plugin "flowbite/plugin";
 @source "../node_modules/flowbite"; */
 :root {
-  --maincolor: #cb1eba;
+  --maincolor: #e422de;
 }
 
 body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/img/1743051499935.gif");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/img/bg-purple.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

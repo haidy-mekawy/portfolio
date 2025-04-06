@@ -11,7 +11,7 @@ export class AboutComponent {
     'html',
     'css3',
     'java script',
-    'bootstrap',
+    'boot strap',
     'angular',
     'react',
     'sass',
@@ -19,7 +19,7 @@ export class AboutComponent {
     'github',
     'jquery',
     'tailwind',
-    'typescript',
+    'type script',
   ];
   tools: string[] = ['visual code', 'postman', 'NPM', 'font awesome', 'vercel'];
 }
